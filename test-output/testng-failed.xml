@@ -5,9 +5,11 @@
     <classes>
       <class name="TestCases.LoginTest">
         <methods>
-          <include name="SetUp"/>
           <include name="tearDown"/>
-          <include name="LoginSuccess"/>
+          <include name="SetUp"/>
+          <include name="LoginFailure"/>
+          <include name="tearDownExcelReport"/>
+          <include name="ExcelDataAndReportSetUp"/>
         </methods>
       </class> <!-- TestCases.LoginTest -->
     </classes>
