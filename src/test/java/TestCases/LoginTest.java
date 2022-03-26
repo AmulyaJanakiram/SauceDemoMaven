@@ -13,14 +13,14 @@ public class LoginTest extends BaseClass {
 
 	@Test
 	public void LoginFailure() throws Exception {
-		test = report.startTest("LoginFailure");
+		// test = report.startTest("LoginFailure");
 		LoginPage Login = new LoginPage();
 		Login.LoginFunction("standard_user", "test@123");
 		WebElement ErrorMsg = driver.findElement(By.xpath(("//h3")));
 		String ActualErrorMsg = ErrorMsg.getText();
 		String ExpectedErrorMsg = "Epic sadface: Username and password do not match any user in this service";
 		Assert.assertEquals(ActualErrorMsg, ExpectedErrorMsg);
-		report.endTest(test);
+		// report.endTest(test);
 	}
 
 	@Test
