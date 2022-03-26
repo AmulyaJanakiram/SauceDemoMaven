@@ -1,6 +1,7 @@
 package TestCases;
 
 import java.io.FileInputStream;
+import java.lang.reflect.Method;
 
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -40,7 +41,8 @@ public class BaseClass {
 	}
 
 	@BeforeMethod
-	public void SetUp() {
+	public void SetUp(Method method) {
+		test = report.startTest(method.getName());
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://www.saucedemo.com/");
