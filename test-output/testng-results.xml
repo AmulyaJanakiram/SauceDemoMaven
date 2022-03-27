@@ -1,17 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-26T09:29:09 IST" name="Default suite" finished-at="2022-03-26T09:29:20 IST" duration-ms="11034">
+  <suite started-at="2022-03-27T09:36:26 IST" name="Suite" finished-at="2022-03-27T09:37:09 IST" duration-ms="42384">
     <groups>
     </groups>
-    <test started-at="2022-03-26T09:29:09 IST" name="Default test" finished-at="2022-03-26T09:29:20 IST" duration-ms="11034">
+    <test started-at="2022-03-27T09:36:26 IST" name="Test" finished-at="2022-03-27T09:37:09 IST" duration-ms="42384">
       <class name="TestCases.LoginTest">
-        <test-method is-config="true" signature="ExcelDataAndReportSetUp()[pri:0, instance:TestCases.LoginTest@20ccf40b]" started-at="2022-03-26T09:29:09 IST" name="ExcelDataAndReportSetUp" finished-at="2022-03-26T09:29:11 IST" duration-ms="1731" status="PASS">
+        <test-method is-config="true" signature="ExcelDataAndReportSetUp()[pri:0, instance:TestCases.LoginTest@4229bb3f]" started-at="2022-03-27T09:36:26 IST" name="ExcelDataAndReportSetUp" finished-at="2022-03-27T09:36:28 IST" duration-ms="1669" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExcelDataAndReportSetUp -->
-        <test-method is-config="true" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:TestCases.LoginTest@20ccf40b]" started-at="2022-03-26T09:29:11 IST" name="SetUp" finished-at="2022-03-26T09:29:16 IST" duration-ms="5485" status="PASS">
+        <test-method is-config="true" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:TestCases.LoginTest@4229bb3f]" started-at="2022-03-27T09:36:28 IST" name="SetUp" finished-at="2022-03-27T09:36:33 IST" duration-ms="5182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.LoginTest.DataFromExcelFile() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="DataFromExcelFile()[pri:0, instance:TestCases.LoginTest@4229bb3f]" started-at="2022-03-27T09:36:33 IST" name="DataFromExcelFile" finished-at="2022-03-27T09:36:38 IST" duration-ms="5060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataFromExcelFile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LoginTest@4229bb3f]" started-at="2022-03-27T09:36:38 IST" name="tearDown" finished-at="2022-03-27T09:36:39 IST" duration-ms="621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:TestCases.LoginTest@4229bb3f]" started-at="2022-03-27T09:36:39 IST" name="SetUp" finished-at="2022-03-27T09:36:44 IST" duration-ms="5049" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,19 +41,69 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="LoginFailure()[pri:0, instance:TestCases.LoginTest@20ccf40b]" started-at="2022-03-26T09:29:16 IST" name="LoginFailure" finished-at="2022-03-26T09:29:19 IST" duration-ms="2604" status="PASS">
+        <test-method signature="LoginFailure()[pri:0, instance:TestCases.LoginTest@4229bb3f]" started-at="2022-03-27T09:36:44 IST" name="LoginFailure" finished-at="2022-03-27T09:36:47 IST" duration-ms="2642" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LoginTest@20ccf40b]" started-at="2022-03-26T09:29:19 IST" name="tearDown" finished-at="2022-03-26T09:29:19 IST" duration-ms="464" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LoginTest@4229bb3f]" started-at="2022-03-27T09:36:47 IST" name="tearDown" finished-at="2022-03-27T09:36:48 IST" duration-ms="1517" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownExcelReport()[pri:0, instance:TestCases.LoginTest@20ccf40b]" started-at="2022-03-26T09:29:19 IST" name="tearDownExcelReport" finished-at="2022-03-26T09:29:20 IST" duration-ms="692" status="PASS">
+        <test-method is-config="true" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:TestCases.LoginTest@4229bb3f]" started-at="2022-03-27T09:36:48 IST" name="SetUp" finished-at="2022-03-27T09:36:54 IST" duration-ms="5520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.LoginTest.LoginSuccess() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="LoginSuccess()[pri:0, instance:TestCases.LoginTest@4229bb3f]" started-at="2022-03-27T09:36:54 IST" name="LoginSuccess" finished-at="2022-03-27T09:36:59 IST" duration-ms="4944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LoginTest@4229bb3f]" started-at="2022-03-27T09:36:59 IST" name="tearDown" finished-at="2022-03-27T09:36:59 IST" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:TestCases.LoginTest@4229bb3f]" started-at="2022-03-27T09:36:59 IST" name="SetUp" finished-at="2022-03-27T09:37:03 IST" duration-ms="3843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.LoginTest.ParameterFromTestNGFile(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ParameterFromTestNGFile(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoginTest@4229bb3f]" started-at="2022-03-27T09:37:03 IST" name="ParameterFromTestNGFile" finished-at="2022-03-27T09:37:08 IST" duration-ms="4761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ParameterFromTestNGFile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LoginTest@4229bb3f]" started-at="2022-03-27T09:37:08 IST" name="tearDown" finished-at="2022-03-27T09:37:08 IST" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownExcelReport()[pri:0, instance:TestCases.LoginTest@4229bb3f]" started-at="2022-03-27T09:37:08 IST" name="tearDownExcelReport" finished-at="2022-03-27T09:37:09 IST" duration-ms="585" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownExcelReport -->
       </class> <!-- TestCases.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

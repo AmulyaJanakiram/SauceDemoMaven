@@ -2,6 +2,7 @@ package TestCases;
 
 import java.io.FileInputStream;
 import java.lang.reflect.Method;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -47,6 +48,7 @@ public class BaseClass {
 		driver = new ChromeDriver();
 		driver.get("https://www.saucedemo.com/");
 		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(20000, TimeUnit.MILLISECONDS);
 	}
 
 	@AfterMethod
